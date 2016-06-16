@@ -1,1 +1,1 @@
-# gnome-front-end
+# GNOME PSD to html front-end development
