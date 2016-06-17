@@ -222,3 +222,31 @@ footer a {
 .tagline a {
     color: #fff;
 }
+
+/*
+SECTION
+*/
+
+.side {
+    background: #fff;
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.part {
+    float: left;
+    width: 50%
+}
+
+.side img {
+    
+}
+
+
+
+
+
+
+
+
