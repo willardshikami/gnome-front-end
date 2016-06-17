@@ -106,6 +106,7 @@ HEADER
 header{
     background: #384137;
     display: block;
+    padding-bottom: 15px;
 }
 
 .primary-header {
@@ -114,15 +115,19 @@ header{
 }
 
 .logo {
+    float: left;
     font-size: 48px;
     font-weight:500;
     padding: 66px 0 22px 0;
+    clear: both;
     
 }
+
 .tagline {
     color: 52575d;
     text-align: right;
-    margin-bottom: 6px;
+    margin-bottom: 30px;
+    padding-top: 89px;
 }
 
 /*
@@ -172,8 +177,8 @@ IMAGE
 */
 
 .first img {
-    width: 1000px;
-    padding-left: 6px;
+    width: 100%;
+    position: relative;
 }
 
 .teaser img {
@@ -182,13 +187,23 @@ IMAGE
 }
 
 .first h3 {
-    font-size: 26px;
+    font-size: 50px;
+    position: absolute;
+    padding-left: 45px;
+    left: 0;
+    top: 200px;
+    width: 100%;
+}
+
+.bend {
+    font-style: italic;
 }
 
 .first p {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    font-size: 12px;
+    font-size: 18px;
+    position: absolute;
+    padding-left: 45px;
+    top: 400px
 }
 
 /*
@@ -277,7 +292,7 @@ SECTION
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 450px;
-    margin-right: 50px
+    margin-right: 50px;
 }
 
 .partb p {
@@ -316,31 +331,18 @@ AD
     background: #fff;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 15px;
+    clear: both;
 }
 
 code {
-    padding-top: 15px;
-    background #00b906;
-    
-
- 
-}
-.btn{
-    
-    border-radius: 20px;
-    color: #000;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    letter-spacing: .5px;
-    margin-bottom: 15px ;
-}
-
-.btn-alt {
-    background: #384137;
-    border: 1px solid #384137;
+    background: #00b906;
+    border-radius: 6px;
     color: #fff;
-    padding: 11px 29px;
+    display: inline-block;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+    padding: 30px 550px;
 }
 
 /*
