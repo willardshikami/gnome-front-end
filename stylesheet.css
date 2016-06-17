@@ -60,14 +60,39 @@ body{
     font-family: sans-serif;
 }
 
+/* 
+HEADER
+*/
+
+header{
+    background: #384137;
+    display: block;
+}
+
+.primary-header {
+    background: #384137;
+    display: block;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight:500;
+    padding: 66px 0 22px 0;
+    
+}
+.tagline {
+    color: #fff;
+    text-align: right;
+    margin-bottom: 6px;
+}
+
+
 /*
 TYPOGRAPHY
 */
 
 h1{
-    color: yellow;
-    font-weight: 500;
-    font-size: 60px;
+  
 }
 
 h2 {
@@ -78,9 +103,14 @@ h2 {
 }
 
 /*
+IMAGE
+*/
+
+/*
 LINKS
 */
 
 a {
     text-decoration: none;
 }
+
