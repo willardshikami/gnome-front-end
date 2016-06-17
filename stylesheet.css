@@ -57,5 +57,30 @@ BODY
 body{
     background: #FAFAFA;
     color: #52575d;
-    font-family: "Montserrat";
+    font-family: sans-serif;
+}
+
+/*
+TYPOGRAPHY
+*/
+
+h1{
+    color: yellow;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+h2 {
+    color: #000;
+    font-weight: 400;
+    font size: 60;
+    
+}
+
+/*
+LINKS
+*/
+
+a {
+    text-decoration: none;
 }
