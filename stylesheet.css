@@ -60,6 +60,45 @@ body{
     font-family: sans-serif;
 }
 
+.body {
+    background: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.body h2 {
+    color: #000;
+    font-size: 30px;
+    margin: 15px 0 15px 0;
+}
+
+.body p {
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+/*
+BUTTON
+*/
+
+.btn{
+    
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin-bottom: 15px ;
+}
+
+.btn-alt {
+    background: #384137;
+    border: 1px solid #384137;
+    color: #fff;
+    padding: 11px 29px;
+}
+
 /* 
 HEADER
 */
@@ -81,7 +120,7 @@ header{
     
 }
 .tagline {
-    color: #fff;
+    color: 52575d;
     text-align: right;
     margin-bottom: 6px;
 }
@@ -98,13 +137,28 @@ h1{
 h2 {
     color: #000;
     font-weight: 400;
-    font size: 60;
+    font-size: 30px;
     
 }
 
 /*
 IMAGE
 */
+
+.first img {
+    width: 1000px;
+    padding-left: 6px;
+}
+
+.first h3 {
+    font-size: 26px;
+}
+
+.first p {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 12px;
+}
 
 /*
 LINKS
@@ -114,3 +168,26 @@ a {
     text-decoration: none;
 }
 
+h1 a {
+    color: #fff024;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+    color: #fff024;
+}
+
+footer a {
+    color: #fff024;
+}
+
+.tagline a {
+    color: #fff;
+}
