@@ -58,6 +58,7 @@ body{
     background: #FAFAFA;
     color: #52575d;
     font-family: sans-serif;
+    width: 100%;
 }
 
 .body {
@@ -69,7 +70,9 @@ body{
 .body h2 {
     color: #000;
     font-size: 30px;
-    margin: 15px 0 15px 0;
+    margin-top: 15px;
+    padding-top: 45px;
+    padding-bottom: 15px;
 }
 
 .body p {
@@ -89,7 +92,8 @@ BUTTON
     display: inline-block;
     font-weight: 400;
     letter-spacing: .5px;
-    margin-bottom: 15px ;
+    margin-top: 25px;
+    margin-bottom: 45px ;
 }
 
 .btn-alt {
@@ -119,6 +123,7 @@ header{
     font-size: 48px;
     font-weight:500;
     padding: 66px 0 22px 0;
+    margin-left: 50px;
     clear: both;
     
 }
@@ -128,6 +133,7 @@ header{
     text-align: right;
     margin-bottom: 30px;
     padding-top: 89px;
+    margin-right: 50px;
 }
 
 /*
@@ -136,6 +142,8 @@ GRID
 
 .grid,
 col-1-3{
+    background: #fff;
+    margin-top: 15px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -203,7 +211,7 @@ IMAGE
     font-size: 18px;
     position: absolute;
     padding-left: 45px;
-    top: 400px
+    top: 400px;
 }
 
 /*
@@ -251,7 +259,7 @@ SECTION
 
 .part {
     float: left;
-    width: 50%
+    width: 50%;
 }
 
 .side img {
@@ -266,7 +274,7 @@ SECTION
 
 .side p {
     line-height: 30px;
-    margin-right: 50px
+    margin-right: 50px;
 }
 
 
@@ -308,7 +316,6 @@ SECTION
     margin-top: 15px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-bottom: 
 }
 
 .normal h2 {
@@ -361,6 +368,8 @@ FOOTER2
     text-align: center;
     text-transform: uppercase;
 }
+
+/*shikami*/
 
 .mainfooter p {
     padding-top: 30px;
